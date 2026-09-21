@@ -21,6 +21,6 @@
 /// assert_eq!(average(100,100,100), 100);
 /// ```
 pub fn average(a: i32, b: i32, c: i32) -> i32 {
-    let sum = a + b - c;
-    sum / 2
+    let sum = a + b + c;
+sum / 3 
 }
